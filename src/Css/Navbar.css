@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+  }
+  
+  .navbarLogo img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .menuToggle {
+    cursor: pointer;
+  }
+  
+  .drawerList {
+    width: 250px;
+    padding: 20px;
+  }
+  
+  .drawerList .MuiListItem-root {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .drawerList .MuiListItem-root:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .drawerList .MuiListItem-root .MuiListItemText-primary {
+    color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .menuToggle {
+      display: block;
+      justify-content: end;
+    }
+  
+    .navbarLogo {
+      display: none;
+    }
+  }
+  
